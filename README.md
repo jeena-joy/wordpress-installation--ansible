@@ -63,6 +63,12 @@ vi virtualhost.conf.tmpl
 </virtualhost>
 ```
 
+### Create a sample test page
+
+```sh
+# echo "<?php phpinfo(); ?>" > test.php
+# echo "<h1><center> apache working... </center></h1>" > test.html
+```
 
 ### Create a Playbook for Apache and  MariaDB
 Create a playbook for the Apache to install and configure Apache and MariaDB on the Target host. This playbook will do the following things:
